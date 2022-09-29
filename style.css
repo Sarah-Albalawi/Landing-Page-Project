@@ -119,3 +119,60 @@ nav a:hover{
      
     text-shadow: 2px 2px 4px grey ;
 }
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-right: 43rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px grey ;
+    margin-right: 3rem;
+    margin-left: 2rem;
+}
+.dishes-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(22px, auto));
+    grid-gap:1.5rem;
+    align-items: center;
+}
+.img-box{
+    position:relative;
+    margin-top: 4rem;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC837;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15%;
+    width: 80%;
+    height: 80%;
+}
+.img-box h2{
+    margin: 4px 0 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.img-box p{
+    margin: 4px 0 10px;
+    font-size: 1rem;
+}
+article span{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.dessert-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(22px, auto));
+    grid-gap:1.5rem;
+    align-items: center;
+}
+.chefs-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(22px, auto));
+    grid-gap:1.5rem;
+    align-items: center;
+}
