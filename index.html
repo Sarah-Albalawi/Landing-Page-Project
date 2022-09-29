@@ -27,5 +27,200 @@
             </ul>
         </nav>
     </header>
+    <!--home section-->
+    <section id="home">
+        <figure>
+            <img src="assets/homepage.png" alt="chef person" width="30%" class="home-image">
+            <figcaption class="home-text"> Relaxed Atmosphere, Incredible Cuisine!<br><br><span>Order, Eat & Enjoy!</span></figcaption>
+        
+        
+        </figure>
+          <!--about restaurant section-->
+    </section>
+    <section id="about-us">
+        <figure>
+            <img src="assets/restaurant.jpg" class="restaurant" alt="restaurant"width=35%>
+            <figcaption class="restaurant-text"><span>A Little More About Us</span> <br><br> Warm, professional service is a trademark at Heaven, where our knowledgeable servers cater to guests’ every need.<br>Our passion is providing guests with delicious food, great desserts, and exceptional hospitality in a beautiful, relaxed setting… making every visit to Heaven a memorable one.</figcaption>
+        </figure>
+       
+    </section>
+     <!--menu section-->
+    
+     <h1 id ="menu">Our Menu </h1>
+     <section class="dishes-container" >
+         
+     <article class="img-box">
+         <img src="./assets/Burger.png" alt="Burger" width=70%>.
+         <h2>Beef Burger</h2>
+         <p>a sandwich consisting of a cooked patty of ground or chopped beef.</p>
+         <span>20$</span>
+ 
+     </article>
+    <!--Main dish-->
+     <article class="img-box">
+         <img src="./assets/hotdog pizza.png" alt="pizza" width=70%>.
+         <h2>Hot Dog Pizza</h2>
+         <p>pizza surrounded by a halo of hot dogs, baked right into the crust.</p>
+         <span>10$</span>
+ 
+     </article>
+     <article class="img-box">
+         <img src="./assets/crispy.png" alt="crispy" width=70%>.
+         <h2>Chicken Crispy</h2>
+         <p>The chicken is fried in such a way that the skin is extremely crunchy, but the white meat is relatively soft.</p>
+         <span>15$</span>
+ 
+     </article>
+     <article class="img-box">
+         <img src="./assets/Lasagne.png" alt="lasagne" width=70%>.
+         <h2>lasagne Dish</h2>
+         <p>a dish made with several layers of lasagna sheets with sauce and other ingredients, such as meats and cheese, in between the lasagna noodles.</p>
+         <span>18$</span>
+ 
+     </article>
+ </section>
+   <!--Dessert dishes-->
+ <section class="dessert-container">
+     <article class="img-box">
+         <img src="./assets/cake.png" alt="cake" width=70%>.
+         <h2>Chocolate Cake</h2>
+         
+         <span>8$</span>
+ 
+     </article>
+    
+     <article class="img-box">
+         <img src="./assets/cheesecake.png" alt="cheesecake" width=70%>.
+         <h2>Cheesecake</h2>
+         
+         <span>10$</span>
+ 
+     </article>
+     <article class="img-box">
+         <img src="./assets/icecream.png" alt="ice-cream" width=70%>.
+         <h2>Ice Cream</h2>
+         
+         <span>6$</span>
+ 
+     </article>
+     <article class="img-box">
+         <img src="./assets/cupcake.png" alt="cupcake" width=70%>.
+         <h2>Cupcake</h2>
+         
+         <span>7$</span>
+ 
+     </article>
+ </section>
+ <!--Restaurant's Chefs-->
+<h1 id="chef">Meet Our Chefs</h1>
+<section class="chefs-container" >
+    <article class="img-box">
+        <img src="./assets/chef1.png" alt="chef" width=60%>.
+        <h2>Angela Hartnett </h2>
+        
+      
+
+    </article>
+   
+    <article class="img-box">
+        <img src="./assets/chef2.png" alt="chef" width=70%>.
+        <h2>Gordon Ramsay</h2>
+        
+       
+
+    </article>
+    <article class="img-box">
+        <img src="./assets/chef3.png" alt="chef" width=90%>.
+        <h2>Ruth Rogers</h2>
+        
+       
+
+    </article>
+    <article class="img-box">
+        <img src="./assets/chef4.png" alt="chef" width=60%>.
+        <h2>James Martin</h2>
+        
+        
+
+    </article>
+</section>
+<section id="delivery">
+    <h1>Delivery Service</h1>
+    <form method="POST" autocomplete="on">
+    
+        <label>Name: </label>
+        <input type="text" name="Name"><br><br>
+        <label>Mobile Number: </label>
+        <input type="tel" name="Mobile Number" maxlength="10"><br><br>
+        <label>Address: </label>
+        <input type="text" name="Name"><br><br>
+        <label>Delivery Date & Time:</label>
+        <input type ="datetime-local" name="Time"><br><br>
+    
+        <label for ="range">How do you find our service? </label>
+        <input type ="range" ><br><br>
+        <dropdown>
+            <p>Main Dish: </p>
+            <select>
+                <option>Hot Dog Pizza</option>
+                <option>Lasagne Dish</option>
+                <option>Chicken Crispy</option>
+                <option>Beef Burger</option>
+                
+            </select>
+        </dropdown>
+        
+       
+        <label class="quantity">Quantity: </label>
+        <input type="number" name="quantity" min="1" max="30"><br><br>
+        <dropdown>
+            <p>Dessert: </p>
+            <select>
+                <option>Cupcake</option>
+                <option>Ice Cream</option>
+                <option>Chocolate Cake</option>
+                <option>Cheesecake</option>
+                
+            </select>
+        </dropdown>
+       
+        
+        <label class="quantity">Quantity: </label>
+        <input type="number" name="quantity" min="1" max="30"><br><br>
+        <p id="method-payment">How would you like to pay?</p>
+       
+        <input type="radio" id ="Cash"value="Cash" name="payment">
+        <label for="Cash">Cash</label><br><br>
+    
+        <input type="radio" id="Credit Card" value="Credit Card"name="payment">
+        <label for="Credit Card">Credit Card</label><br><br>
+        
+        <button type="button">Order Now</button>
+        <button type="reset">Reset</button>
+    </form>
+        
+
+</section>
+<!--Footer-->
+
+<footer id="contact">
+    <section>
+        <h2>Contact Us</h2>
+        <div class="social-icon">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-phone"></a>
+            <a href="#" class="fa fa-map-marker"></a>
+        </div>
+        
+        <p>© 2022 Heaven. All rights reserved.</p>
+    
+           
+        
+    </section>
+
+</footer>
+
 </body>
 </html>
