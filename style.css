@@ -1,0 +1,121 @@
+body{
+    background-image: linear-gradient(#F9D423, #FF4E50);
+    background-repeat: repeat;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+
+nav ul {
+    list-style-type: none;
+   
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 1000;
+    position: absolute;
+    width:70%;
+    top:0;
+    left:0;
+    margin-left: 17rem;
+    margin-top: 2.9rem;
+   
+
+    
+}
+.navbar li{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+nav a {
+    text-decoration: none;
+
+    color:black;
+    padding: .8rem;
+    
+    
+}
+nav a:hover{
+    color:red;
+    cursor: pointer;
+}
+
+@keyframes colorful {
+    0%   {color: black;}
+    25%  {color: rgb(5, 141, 5);}
+    50%  {color: blue;}
+    100% {color: rgb(208, 45, 23);}
+  }
+
+.restaurant-name{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+    animation-name: colorful;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    
+}
+.logo{
+    padding-left: 1.9rem;
+}
+
+.home-text{
+    font-size: 2rem;
+    padding: 10rem 5rem;
+    clear:both;
+    display:inline-block;
+    color: rgba(13, 24, 237, 0.957);
+    font-weight: bold;
+    
+
+}
+
+
+.home-text span {
+    padding-left:11rem;
+    animation-name: colorful;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    
+    
+}
+
+
+
+
+.home-image{
+    float:right;
+    padding-top: .5rem;
+    padding-right: 2.8rem;
+    
+}
+
+
+.restaurant{
+    border-radius: 20%;
+    
+}
+
+.restaurant-text{
+    font-size: 1.5rem;
+    padding-left: 27rem;
+    top: 42rem;
+    position:absolute;
+    line-height: 2rem;
+    
+
+    
+}
+.restaurant-text span{
+    padding-left: 5rem;
+    font-size:2rem;
+    color:black;
+    font-weight: bold;
+     
+    text-shadow: 2px 2px 4px grey ;
+}
